@@ -10,14 +10,15 @@ def lectura_xml():
         print(hijo)
 
 def menu():
-    while entrada != "3":
-        print("====== Menú =====")
-        print("1. Cargar Archivo")
-        print("2. Seleccionar paciente")
-        print("3. Salir")
-        entrada = input("Ingresa una opción del menú")
+    print("====== Menú =====")
+    print("1. Cargar Archivo")
+    print("2. Seleccionar paciente")
+    print("3. Salir")
+    entrada = input("Ingresa una opción del menú")
 
-        if entrada == "1":
-            lectura_xml() 
-        elif entrada == "2":
-            print("acá método para paciente")
+    if entrada == "1":
+       lectura_xml() 
+    elif entrada == "2":
+       print("acá método para paciente")
+
+menu()
